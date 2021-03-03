@@ -7,10 +7,9 @@ const saveBtn = document.getElementById("jsSave");
 
 canvas.width = 700;
 canvas.height = 700;
-canvas.fillStyle="#F7F9FC";
+ctx.fillStyle="#F7F9FC";
 ctx.fillRect(0, 0, 700, 700);
 ctx.strokeStyle = "#2c2c2c";
-ctx.fillStyle="#2c2c2c";
 
 ctx.lineWidth = 2.5;
 let painting=false;
