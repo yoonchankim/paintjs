@@ -7,7 +7,7 @@ const saveBtn = document.getElementById("jsSave");
 
 canvas.width = 700;
 canvas.height = 700;
-ctx.fillStyle="#F7F9FC";
+ctx.fillStyle="white";
 ctx.fillRect(0, 0, 700, 700);
 ctx.strokeStyle = "#2c2c2c";
 
